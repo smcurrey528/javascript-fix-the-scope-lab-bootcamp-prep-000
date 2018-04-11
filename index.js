@@ -24,6 +24,7 @@ function add2(n) {
 var funkyFunction = function outsidefunction() {
   return function insidefunction() {
     return "FUNKY!"
+    console.log(funkyFunction ()())
   }
 }
 
